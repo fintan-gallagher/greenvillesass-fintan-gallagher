@@ -1,0 +1,10 @@
+@import "../node_modules/bootstrap/scss/functions";
+//Theme colors
+$primary: #f8ba95;
+$secondary: #757575;
+$light: #fbf6ed;
+$dark: #f9eade;
+
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
