@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;500;600;700;800;900&family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 @font-face {
   font-family: "Inconsolata";
@@ -82,9 +82,9 @@
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: "Inconsolata", sans-serif;
+  --bs-font-monospace: "Outfit", sans-serif;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: "Inconsolata", sans-serif;
+  --bs-body-font-family: "Outfit", sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -5741,7 +5741,7 @@ textarea.form-control-lg {
   z-index: var(--bs-tooltip-zindex);
   display: block;
   margin: var(--bs-tooltip-margin);
-  font-family: "Inconsolata", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5851,7 +5851,7 @@ textarea.form-control-lg {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: "Inconsolata", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -12059,9 +12059,9 @@ textarea.form-control-lg {
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: "Inconsolata", sans-serif;
+  --bs-font-monospace: "Outfit", sans-serif;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: "Inconsolata", sans-serif;
+  --bs-body-font-family: "Outfit", sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -17718,7 +17718,7 @@ textarea.form-control-lg {
   z-index: var(--bs-tooltip-zindex);
   display: block;
   margin: var(--bs-tooltip-margin);
-  font-family: "Inconsolata", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -17828,7 +17828,7 @@ textarea.form-control-lg {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: "Inconsolata", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -23962,4 +23962,21 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.my-pattern_1 {
+  background-color: #f9eade;
+  opacity: 1;
+  background-image: linear-gradient(135deg, #fbf6ed 25%, transparent 25%), linear-gradient(225deg, #fbf6ed 25%, transparent 25%), linear-gradient(45deg, #fbf6ed 25%, transparent 25%), linear-gradient(315deg, #fbf6ed 25%, #f9eade);
+  background-position: 14px 0, 14px 0, 0 0, 0 0;
+  background-size: 14px 14px;
+  background-repeat: repeat;
+}
+
+.my-pattern_2 {
+  background-color: #fbf6ed;
+  opacity: 1;
+  background-image: linear-gradient(135deg, #F9EADE 25%, transparent 25%), linear-gradient(225deg, #F9EADE 25%, transparent 25%), linear-gradient(45deg, #F9EADE 25%, transparent 25%), linear-gradient(315deg, #F9EADE 25%, #fbf6ed 25%);
+  background-position: 14px 0, 14px 0, 0 0, 0 0;
+  background-size: 14px 14px;
+  background-repeat: repeat;
 }/*# sourceMappingURL=main.css.map */
